@@ -1,0 +1,50 @@
+select count(*) totalcount from employee;
+
+SELECT COUNT(*) FROM EMPLOYEE 
+WHERE ENAME='Ramya;
+
+SEELCT AVG(SALARY) AVERAGE_SALARY_OF_MANAGER  
+WHERE JOB_DESC = 'MANAGER';
+
+SELECT SUM(SALARY) FROM EMPLOYEE
+WHERE JOB_DESC= 'MANAGER';
+
+SELECT MAX(SALARY) FROM EMPLOYEE
+WHERE JOB_DESC= 'MANAGER';
+
+SELECT MIN(SALARY) FROM EMPLOYEE
+WHERE JOB_DESC= 'MANAGER';
+
+select abs(-10000);
+
+select acos(-1);
+
+select 10 div 2;
+
+#convert radian value to degree
+select degrees(1.5);
+
+select exp(2);
+
+select pow(5,2);
+
+select least(1,2,35,6);
+
+select greatest(2,100,70);
+
+select round(125.315);
+
+select sqrt(100);
+
+#logarithm
+select LN(25);
+
+#pi
+select pi() *4;
+
+select UCASE(ENAME) , SALARY FROM EMPLOYEE;
+
+select lCASE(ENAME), SALARY FROM EMPLIOYEE;
+
+SELECT ENAME, CHAR_LENGTH(ENAME) FROM EOMPLOYEE;
+
